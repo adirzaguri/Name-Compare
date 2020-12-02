@@ -9,7 +9,16 @@ Name-Compare is a project that decides how much unique names entered in the argu
 ## Usage
 
 ```java
-import 
+import main.uniqueNamesCounter;
+
+public class Main {
+    public static void main(String[] args) {
+      
+       int howMuchUnique= uniqueNamesCounter.countUniqueNames(firstFirstName ,firstLastName ,secondFirstName ,secondLastName , Full_name);
+    
+    }
+}
+
 
 
 ```
